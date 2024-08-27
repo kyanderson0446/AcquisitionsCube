@@ -46,10 +46,10 @@ for file in glob(path):
     # Fix formulas for DW Upload
     try:
         dwupload.range('E5').formula = fr"='BUDGET WORKSHEET'!G9"
-
     except:
         dwupload.range('E5').formula = fr"='FORECAST WORKSHEET'!G9"
-
+        
+    # Xlwings to asses values
     f19 = "=IFNA(INDEX(Budget60Month,MATCH('DW Upload'!$A19,'60-Month Report'!$A$5:$A$197,0),MATCH('DW Upload'!F$5,'60-Month Report'!$A$5:$BJ$5,0)),0)"
     dwupload.range('F19:BL19').formula = f19
     f20 = "=IFNA(INDEX(Budget60Month,MATCH('DW Upload'!$A20,'60-Month Report'!$A$5:$A$197,0),MATCH('DW Upload'!F$5,'60-Month Report'!$A$5:$BJ$5,0)),0)"
