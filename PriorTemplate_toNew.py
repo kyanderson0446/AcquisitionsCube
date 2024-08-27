@@ -20,9 +20,9 @@ structure = 'Consolidated'
 #################### ENTER FILE PATH TO FOLDER HERE ############################
 # path = fr"P:\Finance\Acquistions & New Build\Closing\2023 - HL Saddle-66\Proformas\Aug start date_Mar24Hist\*.xlsx"
 path = fr"P:\Finance\Acquistions & New Build\Active\2024 - Bayroad KS-3+2\Proformas\*Proforma.xlsx"
-map = '96linemap.xlsx'
+map = '96linemap.csv'
 
-map = pd.read_excel(map, index_col=False)
+map = pd.read_csv(map, index_col=False)
 ##############
 
 app = xw.App(visible=False)
