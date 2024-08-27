@@ -1,0 +1,236 @@
+96line,Type,Ledger,Description
+1,Financial,3100040,  Medicare/Like Medicare
+2,Financial,3100050,  Medicaid
+3,Financial,3100000,  Private
+4,Financial,3100010,  Managed Care
+5,Financial,3100060,  Hospice
+6,Financial,3100020,  Insurance
+7,Financial,3100030,  Veterans Administration
+8,Financial,3100090,  Other Payers
+11,Financial,4100041,  Ancillary - Medicare Part B
+12,Financial,4100000,  Ancillary - Other
+10,Financial,3600000,  AL - Private
+13,Financial,5990000,  Other Revenue
+14,Financial,6110010,    Nursing Management
+15,Financial,6110110,    Nurses With Admin Duties
+16,Financial,6110120,    Registered Nurses
+17,Financial,6110130,    Licensed Practical Nurses
+18,Financial,6110140,    Certified Nurse Assistants
+19,Financial,6110180,    Other Nursing
+20,Financial,6120000,    Assisted Living Caregivers
+21,Financial,6200000,  Maintenance
+22,Financial,6300000,  Housekeeping
+23,Financial,6400000,  Laundry
+24,Financial,6500000,  Dietary
+25,Financial,6600000,  Social Services
+26,Financial,6700000,  Activities
+27,Financial,6800000,  Education
+28,Financial,6900000,  Administration
+29,Financial,6690000,  Beauty & Barber
+30,Financial,9100210,  Payroll Taxes
+31,Financial,9100270,  Workers' Compensation Insurance
+32,Financial,9100250,  Health Insurance
+33,Financial,9100240,"  Paid Time Off (Vac, Sick, Hol)"
+34,Financial,9100280,  Other Benefits 
+35,Financial,6110460,    Registered Nurses
+36,Financial,6110463,    Licensed Practical Nurses
+37,Financial,6110464,    Certified Nurse Assistants
+38,Financial,6110500,  Supplies & Minor Equipment
+39,Financial,6110410,  Medical Director
+40,Financial,6110850,  Medical Waste
+41,Financial,6110990,  Other
+42,Financial,6200500,  Supplies & Minor Equipment
+43,Financial,6200720,  Repairs & Maintenance
+44,Financial,6200790,  Purchased Services
+45,Financial,6200990,  Other
+46,Financial,6204790,  Grounds
+47,Financial,6204800,  Utilities
+48,Financial,6300500,  Supplies & Paper Goods
+49,Financial,6300990,  Other
+50,Financial,6400500,  Supplies & Cleaning Supplies
+51,Financial,6400560,  Linen & Bedding
+52,Financial,6400720,  Repairs & Maintenance
+53,Financial,6400990,  Other
+54,Financial,6500550,  Raw Food
+55,Financial,6500553,  Tube Feeding
+56,Financial,6500460,  Dietitian Fees
+57,Financial,6500500,  Supplies/Minor Eqpt/Paper Goods
+58,Financial,6500720,  Repairs & Maintenance
+59,Financial,6500990,  Other
+60,Financial,6600630,  Resident Property Replacement
+61,Financial,6600990,  Other
+62,Financial,6700500,  Supplies
+63,Financial,6700750,  Outside Entertainment
+64,Financial,6700990,  Other
+65,Financial,6800500,  Supplies
+66,Financial,6800990,  Other
+67,Financial,6900500,  Supplies & Minor Equipment
+68,Financial,6900720,  Repairs & Maintenance
+69,Financial,6900490,  Professional Fees
+70,Financial,6900750,  Service Agreements
+71,Financial,6900760,  Software Support
+72,Financial,6900890,  Licenses
+73,Financial,6900900,  Insurance
+74,Financial,6900975,  Marketing & Advertising
+75,Financial,6900730,  Management Fees
+76,Financial,6900731,  Direct Expense Allocation
+77,Financial,6900891,  Quality Assurance Fees
+78,Financial,6900990,  Other
+79,Financial,7120000,  Depreciation & Amortization
+80,Financial,7200000,  Property Leases
+81,Financial,7300000,  Property Taxes
+82,Financial,7400000,  Property Insurance
+83,Financial,7500000,  Interest
+84,Financial,7700000,Bad Debt Expense
+85,Financial,8100000,  Patient Supplies
+86,Financial,8200000,  Physical Therapy
+87,Financial,8250000,  Occupational Therapy
+88,Financial,8280000,  Speech-Language Pathology
+89,Financial,8300000,  Pharmacy
+90,Financial,8400000,  Laboratory
+91,Financial,8904000,  Physician Fees
+92,Financial,8911000,  Radiology
+93,Financial,8220000,  Respiratory Therapy
+94,Financial,8600000,  Transportation
+95,Financial,8999000,  Other Ancillary Expenses
+96,Financial,9000000,Non-Operating Income/(Loss)
+Beds-SNF,Operational Beds,,  Skilled Nursing
+Beds-SA,Operational Beds,,  Subacute
+Beds-AL,Operational Beds,,  Assisted Living
+Beds-Total,,,  Total
+Days-SNF-MCA,Financial,9500040,  Medicare/Like Medicare
+Days-SNF-MCD,Financial,9500050,  Medicaid/Medi-Cal
+Days-SNF-Pvt,Financial,9500000,  Private
+Days-SNF-Mgd,Financial,9500010,  Managed Care
+Days-SNF-Hosp,Financial,9500060,  Hospice
+Days-SNF-Ins,Financial,9500020,  Insurance
+Days-SNF-VA,Financial,9500030,  Veterans Administration
+Days-SNF-Other,Financial,9505000,Assisted Living
+Days-SNF-Total,,,  Total Skilled Nursing Patient Days
+Days-SA-MCA,Financial,,  Medicare/Like Medicare
+Days-SA-MCD,Financial,,  Medicaid/Medi-Cal
+Days-SA-Pvt,Financial,,  Private
+Days-SA-Mgd,Financial,,  Managed Care
+Days-SA-Hosp,Financial,,  Hospice
+Days-SA-Ins,Financial,,  Insurance
+Days-SA-VA,Financial,,  Veterans Administration
+Days-SA-Other,Financial,,  Other Payers
+Days-SA-Total,,,  Total Skilled Nursing Patient Days
+Days-AL-SSI,Financial,,  SSI
+Days-AL-Pvt,Financial,,  Private
+Days-AL-Total,,,  Total Assisted Living ADC
+Days-Total,,,TOTAL PATIENT DAYS
+ADC-SNF-MCA,ADC,,  Medicare/Like Medicare
+ADC-SNF-MCD,ADC,,  Medicaid/Medi-Cal
+ADC-SNF-Pvt,ADC,,  Private
+ADC-SNF-Mgd,ADC,,  Managed Care
+ADC-SNF-Hosp,ADC,,  Hospice
+ADC-SNF-Ins,ADC,,  Insurance
+ADC-SNF-VA,ADC,,  Veterans Administration
+ADC-SNF-Other,ADC,,  Other Payers
+ADC-SNF-Total,,,  Total Skilled Nursing Patient Days
+ADC-SA-MCA,ADC,,  Medicare/Like Medicare
+ADC-SA-MCD,ADC,,  Medicaid/Medi-Cal
+ADC-SA-Pvt,ADC,,  Private
+ADC-SA-Mgd,ADC,,  Managed Care
+ADC-SA-Hosp,ADC,,  Hospice
+ADC-SA-Ins,ADC,,  Insurance
+ADC-SA-VA,ADC,,  Veterans Administration
+ADC-SA-Other,ADC,,  Other Payers
+ADC-SA-Total,,,  Total Skilled Nursing Patient Days
+ADC-AL-SSI,ADC,,  SSI
+ADC-AL-Pvt,ADC,,  Private
+ADC-AL-Total,,,  Total Assisted Living ADC
+ADC-Combined,,,COMBINED ADC
+Occ-SNF,Occupancy Rate,,  Skilled Nursing
+Occ-SA,Occupancy Rate,,  Subacute
+Occ-AL,Occupancy Rate,,  Assisted Living
+Occ-Total,,,  Total
+Days,,,DAYS IN MONTH
+Alloc-PRTaxes,,,Payroll Taxes
+Alloc-Holiday,,,Paid Time Off (Holidays)
+Alloc-PTO-VS,,,"Paid Time Off (Vacation, Sick)"
+Hours-SA-Don,Hours,9661010,  SNF - Director of Nursing
+Hours-SA-NWAD,Hours,9661110,  SNF - Nurses with Admin Duties
+Hours-SA-RN,Hours,9661012,  SNF - RN's
+Hours-SA-LPN,Hours,9661013,  SNF - LVN/LPN's
+Hours-SA-CNA,Hours,9661014,  SNF - CNA's
+Hours-SA-Other,Hours,9661018,  SNF - Other
+Hours-SA-Total,,,  SNF - Subtotal
+Hours-SA-Don,Hours,,  Subacute - Director of Nursing
+Hours-SA-NWAD,Hours,,  Subacute - Nurses with Admin Duties
+Hours-SA-RN,Hours,,  Subacute - RN's
+Hours-SA-LPN,Hours,,  Subacute - LVN/LPN's
+Hours-SA-CNA,Hours,,  Subacute - CNA's
+Hours-SA-Other,Hours,,  Subacute - Other
+Hours-SA-Total,,,  Subacute - Subtotal
+Hours-AL-Caregiver,Hours,,  Assisted Living - Caregivers
+Hours-Nursing,,,  Nursing - Total
+Hours-Maint,Hours,,  Maintenance
+Hours-Hskp,Hours,,  Housekeeping
+Hours-Lndy,Hours,,  Laundry
+Hours-Diet,Hours,,  Dietary
+Hours-SS,Hours,,  Social Services
+Hours-Act,Hours,,  Activities
+Hours-Educ,Hours,,  Education
+Hours-Adm,Hours,,  Admiinistration
+Hours-B&B,Hours,,  Beauty & Barber
+Hours-PT,Hours,,  Therapy - PT's
+Hours-PTA,Hours,,  Therapy - PTA's
+Hours-PTAides,Hours,,  Therapy - PT Aides
+Hours-OT,Hours,,  Therapy - OT's
+Hours-COTA,Hours,,  Therapy - COTA's
+Hours-SLP,Hours,,  Therapy - SLP's
+Hours-RT,Hours,,  Therapy - RT's
+Hours-Total,,,  TOTAL
+AvgHrs-SNF-DON,Hours PPD,,  SNF - Director of Nursing
+AvgHrs-SNF-NWAD,Hours PPD,,  SNF - Nurses with Admin Duties
+AvgHrs-SNF-RN,Hours PPD,,  SNF - RN's
+AvgHrs-SNF-LPN,Hours PPD,,  SNF - LVN/LPN's
+AvgHrs-SNF-CNA,Hours PPD,,  SNF - CNA's
+AvgHrs-SNF-Other,Hours PPD,,  SNF - Other
+AvgHrs-SNF-Total,,,  SNF - Subtotal
+AvgHrs-SA-DON,Hours PPD,,  Subacute - Director of Nursing
+AvgHrs-SA-NWAD,Hours PPD,,  Subacute - Nurses with Admin Duties
+AvgHrs-SA-RN,Hours PPD,,  Subacute - RN's
+AvgHrs-SA-LPN,Hours PPD,,  Subacute - LVN/LPN's
+AvgHrs-SA-CNA,Hours PPD,,  Subacute - CNA's
+AvgHrs-SA-Other,Hours PPD,,  Subacute - Other
+AvgHrs-SA-Total,,,  Subacute - Subtotal
+AvgHrs-AL-Caregivers,Hours PPD,,  Assisted Living - Caregivers
+AvgHrs-Nursing,,,  Nursing - Total
+AvgHrs-Maint,Hours PPD,,  Maintenance
+AvgHrs-Hskp,Hours PPD,,  Housekeeping
+AvgHrs-Lndy,Hours PPD,,  Laundry
+AvgHrs-Diet,Hours PPD,,  Dietary
+AvgHrs-SS,Hours PPD,,  Social Services
+AvgHrs-Act,Hours PPD,,  Activities
+AvgHrs-Educ,Hours PPD,,  Education
+AvgHrs-Adm,Hours PPD,,  Admiinistration
+AvgHrs-B&B,Hours PPD,,  Beauty & Barber
+AvgHrs-PT,Hours PPD,,  Therapy - PT's
+AvgHrs-PTA,Hours PPD,,  Therapy - PTA's
+AvgHrs-PTAide,Hours PPD,,  Therapy - PT Aides
+AvgHrs-OT,Hours PPD,,  Therapy - OT's
+AvgHrs-COTA,Hours PPD,,  Therapy - COTA's
+AvgHrs-SLP,Hours PPD,,  Therapy - SLP's
+AvgHrs-RT,Hours PPD,,  Therapy - RT's
+AvgHrs-Total,,,  TOTAL
+AvgRate-DON,Hourly Rate,,  Nursing - Director of Nursing
+AvgRate-NWAD,Hourly Rate,,  Nursing - Nurses with Admin Duties
+AvgRate-RN,Hourly Rate,,  Nursing - RN's
+AvgRate-LPN,Hourly Rate,,  Nursing - LVN/LPN's
+AvgRate-CNA,Hourly Rate,,  Nursing - CNA's
+AvgRate-Other,Hourly Rate,,  Nursing - Other
+AvgRate-AL Caregivers,Hourly Rate,,  Nursing - AL Caregivers
+AvgRate-Nursing,,,    Subtotal
+AvgRate-Maintenance,Hourly Rate,,  Maintenance
+AvgRate-Hskp,Hourly Rate,,  Housekeeping
+AvgRate-Lndy,Hourly Rate,,  Laundry
+AvgRate-Diet,Hourly Rate,,  Dietary
+AvgRate-SS,Hourly Rate,,  Social Services
+AvgRate-Act,Hourly Rate,,  Activities
+AvgRate-Educ,Hourly Rate,,  Education
+AvgRateAdm,Hourly Rate,,  Administration
+AvgRate-B&B,Hourly Rate,,  Beauty & Barber
+AvgRate-Total,,,  TOTAL
